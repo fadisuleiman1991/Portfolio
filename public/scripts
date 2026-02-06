@@ -1,0 +1,12 @@
+//--VPS--//
+Username: root
+IP: 109.199.102.40
+Password: aq8?PBB^3/^8=B
+URL Project: http://109.199.102.40:4200
+
+//--git--//
+git config --global user.name “”
+
+//--pm2--//
+pm2 start serve --name portfolio -- -s dist/portfolio/browser -l 4200
+pm2 restart 4
