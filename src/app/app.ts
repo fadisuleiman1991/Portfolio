@@ -7,6 +7,7 @@ import { Skills } from "./components/skills/skills";
 import { Projects } from "./components/projects/projects";
 import { Contact } from "./components/contact/contact";
 import { Footer } from "./components/footer/footer";
+import { myCV } from './data/myCV';
 
 @Component({
   selector: 'app-root',
@@ -16,4 +17,5 @@ import { Footer } from "./components/footer/footer";
 })
 export class App {
   protected readonly title = signal('portfolio');
+  protected readonly myCV = myCV;
 }
