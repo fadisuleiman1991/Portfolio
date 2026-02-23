@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <div class="row">
                         @for (onlineProfile of onlineProfiles; track onlineProfile) {
-                        <span>{{ onlineProfile.name }}: <a [href]="onlineProfile.link" target="_blank">{{onlineProfile.link}}</a></span>
+                        <span>- {{ onlineProfile.name }}: <a [href]="onlineProfile.link" target="_blank">{{onlineProfile.link}}</a></span>
                         }
                     </div>
                 </div>
