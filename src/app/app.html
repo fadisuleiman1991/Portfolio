@@ -2,8 +2,14 @@
 <div>
     <app-hero></app-hero>
     <app-about [personalInformation]=myCV.personalInfo [contact]=myCV.contact></app-about>
-    <app-skills [skills]=myCV.skills></app-skills>
-    <app-projects [projects]="myCV.projects"></app-projects>
     <app-contact></app-contact>
+    <app-skills [skills]=myCV.skills></app-skills>
+    <app-experiences [experiences]=myCV.experiences></app-experiences>
+    <app-projects [projects]="myCV.projects"></app-projects>
+    <app-activities [activities]="myCV.activities"></app-activities>
+    <app-online-profiles [onlineProfiles]="myCV.onlineProfiles"></app-online-profiles>
+    <app-languages [languages]="myCV.languages"></app-languages>
+    <app-trainings [trainings]="myCV.trainings"></app-trainings>
+    <app-educations [educations]="myCV.educations"></app-educations>
 </div>
 <app-footer></app-footer>

@@ -1,0 +1,17 @@
+<section id="experiences" class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title">Experiences</h2>
+        <hr class="divider">
+        <div>
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                    <div class="row">
+                        @for (experience of experiences; track experience) {
+                        <span>{{ experience.position }} | {{ experience.company }} | {{ experience.location }} | {{ experience.startDate }} - {{ experience.endDate }}</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

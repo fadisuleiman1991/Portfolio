@@ -1,4 +1,4 @@
-import { CV, Skill } from "./CV";
+import { CV } from "./CV";
 
 export const myCV: CV = {
   personalInfo: {
@@ -12,7 +12,7 @@ export const myCV: CV = {
     profileImage: "src/profileImage.jpg",
   },
   contact: {
-    email: "fadi.suleiman@gmail.com",
+    email: "fadi.sle@gmail.com",
     phone: "+49 1577 3594045",
     city: "Duisburg",
     country: "Germany",

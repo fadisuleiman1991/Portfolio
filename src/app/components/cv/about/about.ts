@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Contact, PersonalInformation } from '../../data/CV';
+import { Contact, PersonalInformation } from '../../../data/CV';
 
 @Component({
   selector: 'app-about',

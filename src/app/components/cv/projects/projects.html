@@ -1,4 +1,4 @@
-<section id="projects" class="py-5">
+<section id="projects" class="py-5 bg-light">
   <div class="container">
         <h2 class="text-center section-title">Projects</h2>
         <hr class="divider">
@@ -6,7 +6,7 @@
       @for (project of projects; track project) {
           <div class="card shadow-sm mb-3">
             <div class="card-body">
-              <h5>{{ project.name }}: </h5>
+              <h5>{{ project.name }} </h5>
               <div class="row">
               <span>{{project.startDate}} - {{project.endDate}}</span>
               <span>Description: {{project.description}}</span>
